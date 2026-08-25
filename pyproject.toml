@@ -27,6 +27,7 @@ dev = [
 [tool.ruff]
 line-length=92
 target-version = "py313"
+force-exclude = true
 
 [tool.ruff.lint]
 select = [
